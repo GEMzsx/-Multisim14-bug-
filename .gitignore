@@ -1,0 +1,22 @@
+# Generated binaries, test output, startup logs and potential local paths.
+dist/
+logs/
+*.log
+
+# User circuit documents, databases, credentials and backups are not project source.
+*.[mM][sS]14
+*.[mM][sS]13
+*.[uU][sS][rR]
+*.[pP][rR][dD]
+*.[pP][rR][jJ]
+*.kdbx
+.env
+.env.*
+*.bak
+
+# IDE and operating-system files.
+.vs/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
